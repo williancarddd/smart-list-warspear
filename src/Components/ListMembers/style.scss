@@ -1,0 +1,31 @@
+@import '../../styles/colors';
+.table-members {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid $c_peach;
+  caption {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  thead {
+    tr {
+      th {
+        padding: 10px;
+        margin: 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        padding: 8px;
+        margin: 5px;
+        text-align: center;
+      }
+      &:hover{
+        background-color: $c_gray;
+      }
+    }
+  } 
+}
