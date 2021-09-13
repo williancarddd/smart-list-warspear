@@ -1,11 +1,12 @@
 import { useContext } from "react"
 import { ContextList } from "../../Context/ContextList"
 import { Member } from "./Member"
+import { Button } from "../Button"
+
 import './style.scss'
 
 export function ListMembers(){
-  const {state, dispatch} = useContext(ContextList)
-  console.log(state)
+  const {state, addMember} = useContext(ContextList)
   return (
     <>
       <div className="list-member">
@@ -26,6 +27,8 @@ export function ListMembers(){
             }
           </tbody>
         </table>
+        
+        <Button />
       </div>
     </>
   )

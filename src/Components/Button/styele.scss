@@ -1,0 +1,13 @@
+@import '../../styles/colors';
+.button-add {
+  background-color: $c_black;
+  font-size: 1.1rem;
+  padding: 10px;
+  margin-top: 10px ;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  &:active {
+    background-color: $c_gray;
+  }
+}

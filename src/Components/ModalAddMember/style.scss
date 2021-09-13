@@ -1,0 +1,30 @@
+@import '../../styles/colors';
+.label-modal{
+ font-size: 1.2rem;
+ 
+}
+.input-modal{
+  height: 40px;
+  color: black;
+  font-size: 1.2rem;
+}
+.container-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.button-modal{
+  color: $c_peach;
+  padding: 10px;
+  margin: 5px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  font-size: 1.1rem;
+  background-color: $c_gray;
+  &:hover{
+    opacity: 0.6;
+  }
+}
